@@ -22,47 +22,48 @@ input,select{vertical-align:middle}
         height: 100vh;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
        }
        #navegacion
        {
         display: flex;
-        flex-grow: 1;
+        width:100vw;
         flex-direction: row;
         justify-content: space-between;
        }
        #seccion
        {
         display:flex;
-        flex-grow: 1;
+        width:100vw;
         flex-direction: row;
         justify-content: space-between;
        }
        #PiePagina
        {
         display: flex;
-        flex-grow: 1;
+        width:100vw;
         flex-direction: row;
         justify-content: space-between;
        }
        .blo{
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         display: flex;
         background-color: hsl(271, 48%, 80%);
         justify-content: center;
         align-items: center;
        }
        .bloq{
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         display: flex;
         background-color: hsl(271, 48%, 80%);
         justify-content: center;
         align-items: center;
        }
        .bloque{
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         display: flex;
         background-color: hsl(271, 48%, 80%);
         justify-content: center;
